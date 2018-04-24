@@ -1,0 +1,31 @@
+---
+title: "movie review"
+author: "Samuel Valdes"
+date: "4/23/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+source(exercise.R)
+```
+
+## `r review$headline`
+
+Below is a summary about `r movie_name` from the New York Times:
+
+
+> `r review$summary`
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
